@@ -1,0 +1,11 @@
+.env
+*.exe
+*.test
+.demo-db/
+
+# Local settings and scratch files
+.env.*
+*.log
+.codex/
+.agents/
+work/
