@@ -64,6 +64,8 @@ go mod tidy
 
 Mac:
 git clone https://github.com/Konxma/labWEb5.git && cd labWEb5
+
 docker compose up -d --wait
+
 DATABASE_URL='postgresql://postgres:postgres@127.0.0.1:5432/incident_tracker?sslmode=disable' JWT_SECRET='local-development-secret-change-me-123456789' go run .
 
